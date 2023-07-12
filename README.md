@@ -1,9 +1,9 @@
-# TU Dresden Matrix Dokumentation
-**Website:** **https://doc.matrix.tu-dresden.de**
+# Hochschule Stralsund – University of Applied Sciences Matrix Dokumentation
+**Website:** **https://matrix.hochschule-stralsund.de/doc/**
 
 ### To build:
-1. Clone the repository `git clone --recurse-submodules https://github.com/matrix-tu-dresden-de/Dokumentation`
-1. `cd Dokumentation`
+1. Clone the repository `git clone --recurse-submodules https://github.com/AV-HOST/Matrix-Documentation-HOST.git`
+1. `cd Matrix-Documentation-HOST`
 1. Install [Hugo](https://gohugo.io/getting-started/installing)
 1. Run `hugo server -D`
 1. Open http://localhost:1313/
