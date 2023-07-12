@@ -30,7 +30,9 @@
                       {{ if eq $pageLang .Lang}}
                         <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
                       {{ else }}
+                        <!--
                         <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+                        -->
                       {{ end }}
                     {{ end }}
                 {{ end }}
