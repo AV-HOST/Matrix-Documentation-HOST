@@ -15,11 +15,10 @@ Es gibt sehr viele Dienste und Programme zum instantanen elektronischen Kommuniz
 - Differenzierte Kommunikation möglich (1:1, multiple Teams, themenspezifisch)
 - Dezentralisierte, persistente und interoperable Kommunikation (keine zentralen Kontrollinstanzen, verbindbar mit anderen Protokollen und Tools)
 - Datenschutz: Ende-zu-Ende-Verschlüsselung ist Standard in 1:1-Gesprächen und (Gruppen-)Räumen, in letzteren bei Bedarf ausschaltbar
-- Web-Anwendung + Desktop-Client + Mobile Apps vorhanden
-  - Die Kontakte auf dem eigenen Handy werden nicht automatisch an Dritte weitergegeben (kein Adressbuch-Upload)
-- Anbindung an bestehende Authentifizierungssysteme (bspw. der TU Dresden)
+- Web-Anwendung + Desktop-Client + Mobile Apps vorhanden. Die Kontakte auf dem eigenen Handy werden nicht automatisch an Dritte weitergegeben (kein Adressbuch-Upload)
+- Anbindung an bestehende Authentifizierungssysteme (bspw. der Hochschule Stralsund)
 - Bestehende erfolgreiche Sicherheitsauditierung
-- Autonomie und Kontrolle: lokal installierbar (Serverstandort TU Dresden)
+- Autonomie und Kontrolle: lokal installierbar (Serverstandort: Hochschule Stralsund)
 - Erkennen des Anwesenheitsstatus
 - Aktive Weiterentwicklung
 - Aufstrebende Nutzung durch weitere Wissenschaftseinrichtungen (bspw. viele deutsche Hochschulen)
@@ -30,4 +29,4 @@ Ausführliches Fachbegriffs-Glossar: https://matrix.org/faq/#definitions
 
 Hochschulen und Universitäten mit einem Matrix-Dienst: 
 
-<object data="/images/federation_map.svg" type="image/svg+xml" style="width: 600px; max-width: 100%"></object>
+<object data="/doc/images/federation_map.svg" type="image/svg+xml" style="width: 600px; max-width: 100%"></object>

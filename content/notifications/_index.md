@@ -19,18 +19,20 @@ Wenn Sie sich in einem Raum befinden, dessen Hauptzweck es ist, sich gelegentlic
 
 ### Globale Einstellungen
 
-**Einstellungen > Benachrichtigungen**
+**Alle Einstellungen > Benachrichtigungen**
 
 Hier müssen ggf. Erfahrungen gemacht werden, die bei der Einschätzung helfen, welche Benachrichtigungen man wirklich zeitnah braucht und wann ein hin-und-wieder-vorbeischauen ausreicht.
 
 Siehe [Empfehlungen zu ersten Schritten nach Erstlogin]({{< ref "settings" >}})
 
-![Screenshot des Menüs zur Auswahl, wann Benachrichtigungen verschickt werden sollen](/images/notifications2.webp)
+![Screenshot des Menüs zur Auswahl, wann Benachrichtigungen verschickt werden sollen](/doc/images/notifications2.png)
 
 ### Raumweise Einstellungen
 
-Wenn die Maus über einzelne Räume in der Raumliste bewegt wird, zeigen sich je Raum 3 graue Punkte am rechten Rand. Nach einem Klick darauf lassen sich raumindividuell die Benachrichtigungen einrichten.
+Wenn die Maus über einen Raum in der Raumliste bewegen, zeigt sich ein Glockensymbol am rechten Rand. Hier können Sie Schnelleinstellungen zu den Benachrichtigungen vornehmen.
 
-![Screenshot der Benachrichtigungsoptionen in den Raumeinstellungen](/images/notification-rooms.webp)
+![Screenshot der Benachrichtigungsoptionen Glocke](/doc/images/notification-rooms.png)
 
+Eine individuelle Einrichtung von Benachrichtigungen ist über Alle Einstellungen > Benachrichtigungen möglich:
 
+![Screenshot der Benachrichtigungsoptionen in den Raumeinstellungen](/doc/images/notification-rooms2.png)

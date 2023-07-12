@@ -5,26 +5,16 @@ chapter: false
 draft: false
 ---
 
-## Matrix an der TU Dresden
+## Dokumentation im Aufbau
+
+Aktuell arbeiten wir noch daran die Dokumentation der TU-Dresden (https://doc.matrix.tu-dresden.de/) an unsere Matrix-Instanz anzupassen. Im Menü auf der linken Seite werden nach und nach immer mehr Seiten und eine englische Version entstehen.
+
+## Matrix an der Hochschule Stralsund
 Matrix ist ein freies und offenes, sicheres, dezentralisiertes Protokoll für Echtzeit-Kommunikation, das auch unter dem Namen eines seiner nutzenden Programme, Element, bekannt ist.
 
-<object data="/images/matrix_interactive.svg" type="image/svg+xml" style="width: 1280px; max-width: 100%"></object>
+<object data="/doc/images/matrix_interactive.svg" type="image/svg+xml" style="width: 1280px; max-width: 100%"></object>
 
-Zur Zusammenarbeit in Teams stieg in den letzten Jahren der Bedarf an unterstützenden digitalen Werkzeugen (engl. *tool*). Ein zentrales Werkzeug ist dabei ein Team-Chat. Ein Chat bezeichnet, laut Wikipedia, „die elektronische Kommunikation mittels geschriebenem Text in Echtzeit, meist über das Internet“ ([Quelle](https://de.wikipedia.org/wiki/Chat)). Die dazugehörige Handlung nennt man „*chatten*“. Mit einem Chattool (manchmal auch Messenger genannt) können sich Teammitglieder gegenseitig auf aktuelle Informationen aufmerksam machen und insb. Verknüpfungen (*Hyperlinks* / *Links*) zur weitergehenden Zusammenarbeit teilen (bspw. zur Terminfindung, zum kollaborativen Schreiben, zum Planen von Events, zum Bearbeiten von Daten, Code, Mindmaps oder Prozessen). Viele Teams an der TU Dresden haben sich aufgrund des bisher fehlenden zentralen Angebots eigene Lösungen gesucht, die zum Teil datenschutzbedenklich sind oder nicht mit anderen Systemen verknüpfbar sind.
-
-Zur Deckung des Bedarfes an Echtzeitkommunikation wurde daher Ende 2018, nach vergleichender Analyse mehrerer potentieller Lösungsoptionen, innerhalb der TU Dresden das offene Kommunikationsprotokoll Matrix in einem Pilotbetrieb eingeführt und im April 2019 im CIO präsentiert. Im Herbst 2019 wurde der Pilotbetrieb in den Regelbetrieb überführt. U.a. in der [digitalen](https://invidio.xamh.de/AtkA-sE-9uU) [Lehre](https://invidio.xamh.de/jEvKdFTKSxU) (Videos von Prof. Lasch) findet Matrix als Ergänzung zu [OPAL](https://bildungsportal.sachsen.de/opal) Anwendung.
-
-<img id="image-id" style="width: 1280px; max-width: 100%; margin-left:0;">
-<script>
-var cssSelector = "#image-id";
-var imageFolderPath = "/images/statements";
-var imageCount = 19;
-var displayTime = 30000; //in ms
-document.querySelector(cssSelector).src = imageFolderPath+"/"+Math.floor(Math.random() * imageCount)+".jpg";
-setInterval(() => {
-    document.querySelector(cssSelector).src = imageFolderPath+"/"+Math.floor(Math.random() * imageCount)+".jpg";
-}, displayTime);
-</script>
+Zur Zusammenarbeit in Teams stieg in den letzten Jahren der Bedarf an unterstützenden digitalen Werkzeugen (engl. *tool*). Ein zentrales Werkzeug ist dabei ein Team-Chat. Ein Chat bezeichnet, laut Wikipedia, „die elektronische Kommunikation mittels geschriebenem Text in Echtzeit, meist über das Internet“ ([Quelle](https://de.wikipedia.org/wiki/Chat)). Die dazugehörige Handlung nennt man „*chatten*“. Mit einem Chattool (manchmal auch Messenger genannt) können sich Teammitglieder gegenseitig auf aktuelle Informationen aufmerksam machen und insb. Verknüpfungen (*Hyperlinks* / *Links*) zur weitergehenden Zusammenarbeit teilen (bspw. zur Terminfindung, zum kollaborativen Schreiben, zum Planen von Events, zum Bearbeiten von Daten, Code, Mindmaps oder Prozessen).
 
 ## Themen der Dokumentation
 
@@ -37,7 +27,9 @@ setInterval(() => {
     * [Element Android]({{< relref "clients/android/_index.md" >}})
     * [Element iOS]({{< relref "clients/ios/_index.md" >}})
     * [Element-Installation unter Linux]({{< relref "clients/install_linux/_index.md" >}})
+    <!--
     * [Weitere Clients]({{< relref "clients/more_clients/_index.md" >}})
+    -->
 * [Personen finden und direkte Nachrichten versenden]({{< relref "messaging/_index.md" >}})
     * [Nachrichten formatieren]({{< relref "messaging/formatting/_index.md" >}})
     * [Nachrichten suchen]({{< relref "messaging/search/_index.md" >}})
@@ -47,27 +39,38 @@ setInterval(() => {
     * [Räume löschen und aus Räumen austreten]({{< relref "rooms/delete/_index.md" >}})
     * [Räume teilen und publik machen]({{< relref "rooms/sharing/_index.md" >}})
 * [Benachrichtigungen feiner einstellen]({{< relref "notifications/_index.md" >}})
+<!--
 * [Communities als Raum-Filter einsetzen]({{< relref "communities/_index.md" >}})
+-->
 * [Spaces zur Raumverwaltung einsetzen]({{< relref "spaces/_index.md" >}})
 * [Ende-zu-Ende-Verschlüsselung nutzen]({{< relref "encryption/_index.md" >}})
+<!--
 * [Integrations, Bridges, Bots nutzen (u.a. Jitsi)]({{< relref "integrations/_index.md" >}})
 * [Häufige Fragen (FAQ)]({{< relref "faq/_index.md" >}})
+-->
 * [Weiterentwicklung von Matrix]({{< relref "development/_index.md" >}})
+<!--
 * [Blog/News]({{< relref "blog/_index.md" >}})
 * [Datenschutzerklärung]({{< relref "privacy/_index.md" >}})
+-->
 * [Impressum]({{< relref "imprint/_index.md" >}})
+<!--
 * [Barrierefreiheitserklärung]({{< relref "accessibility/_index.md" >}})
+-->
 
 ### Fragen / Kontakt
 
-Allgemeine Fragen richten Sie bitte an den [Service Desk](https://tu-dresden.de/zih/dienste/service-desk) der TU Dresden.
-
-Probleme und Lösungen können darüber hinaus durch Schildern des Sachverhalts gemeinsam im [Matrix-Support-Raum](https://matrix.tu-dresden.de/#/room/#matrix-support:tu-dresden.de) diskutiert werden, sodass alle Anderen durch den transparenten Austausch lernen können.
+Allgemeine Fragen richten Sie bitte an das [ZIK](https://www.hochschule-stralsund.de/host/einrichtungen-und-verwaltung/zentrum-fuer-informations-und-kommunikationstechnik/) der Hochschule Stralsund.
+<!--
+Probleme und Lösungen können darüber hinaus durch Schildern des Sachverhalts gemeinsam im [Matrix-Support-Raum](https://matrix.hochschule-stralsund.de/#/room/#matrix-support:matrix.hochschule-stralsund.de) diskutiert werden, sodass alle Anderen durch den transparenten Austausch lernen können.
+-->
 
 {{% notice tip %}}
 Man kann bei manchen Anomalien probieren den Cache (Zwischenspeicher) zu leeren und alles neu zu laden: Einstellungen > Hilfe & Über > Cache löschen und neu laden
 {{% /notice %}}
 
+<!--
 {{% notice note %}}
-Aktuelle Wartungen werden in dem Matrixraum [#Matrix-Betriebsstatus:tu-dresden.de](https://matrix.tu-dresden.de/#/room/#Matrix-Betriebsstatus:tu-dresden.de) angekündigt.
+Aktuelle Wartungen werden in dem Matrixraum [#Matrix-Betriebsstatus:matrix.hochschule-stralsund.de](https://matrix.hochschule-stralsund.de/#/room/#Matrix-Betriebsstatus:matrix.hochschule-stralsund.de) angekündigt.
 {{% /notice %}}
+-->

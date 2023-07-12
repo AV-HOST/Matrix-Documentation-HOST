@@ -6,35 +6,39 @@ chapter: true
 weight: 30
 ---
 
-## Personen finden und direkte Nachrichten versenden
+## Personen finden und Direktnachrichten versenden
 
-Um einzelne Personen anzuschreiben und somit einen 1:1 Chat zu erzeugen ist als Erstes auf das + in der Kategorie „Direkte Nachrichten“ zu klicken:
+Um einzelne Personen anzuschreiben und somit einen 1:1 Chat zu erzeugen ist als Erstes auf das + (Unterhaltung beginnen) in der Kategorie „Personen“ zu klicken:
 
-![Klick au den Chat starten Button](/images/01_Start-Chat_de.png)
+![Klick au den Chat starten Button](/doc/images/01_Start-Chat_de.png)
 
-Nun ist in das Suchfeld zu tippen und bspw. die E-Mail-Adresse der empfangenen Person anzufangen zu tippen:
+Im Suchfeld können Sie den Namen oder das HOST-Login (falls bekannt) der gesuchten Person eintragen:
 
-Personen, die schon einen Account in Matrix haben sind auch durch ihren Anzeigenamen (meist „Vorname Nachname“) auffindbar. Bitte nach jedem letzten eingegebenen Zeichen 5 Sekunden warten, bis die Suchergebnisse angezeigt werden. Personen, die noch nicht eingeloggt waren, sind ausschließlich über ihre E-Mail-Adresse oder ihren ZIH-Login auffindbar. Der Link-Button „Show More“ lässt weitere Sucherergebnisse erscheinen. Beachten Sie auch, auf welchem Server Ihre gesuchte Person angezeigt wird.
+![Ein Suchergebnis auf eingegebenen Suchanfrage](/doc/images/04_Search.png)
+
+Personen, die schon einen Account in Matrix haben sind durch ihren Anzeigenamen (meist „Vorname Nachname“) auffindbar. Bitte nach jedem letzten eingegebenen Zeichen 5 Sekunden warten, bis die Suchergebnisse angezeigt werden. Personen, die noch nicht eingeloggt waren, sind ausschließlich über ihre E-Mail-Adresse oder ihren HOST-Login auffindbar. Der Link-Button „Mehr zeigen“ lässt weitere Sucherergebnisse erscheinen. Beachten Sie auch, auf welchem Server Ihre gesuchte Person angezeigt wird.
 
 {{% notice note %}}
-Ein Einfügen von E-Mail-Adressen (bspw. via Strg+V) reicht nicht aus, um Personen zu finden! Bitte geben Sie die Zeichen der E-Mail-Adresse per Hand ein, Zeichen für Zeichen und warten abschließend 5 Sekunden bis zur Sichtung der Treffer.
+Ein Einfügen von z. B. Namen (bspw. via Strg+V) reicht nicht aus, um Personen zu finden! Bitte geben Sie den Namen, das HOST-Login oder die E-Mail-Adresse Zeichen für Zeichen per Hand ein und warten abschließend 5 Sekunden bis zur Sichtung der Treffer.
 {{% /notice %}}
 
-![Ergebnis zugefügt zu den Personen, die in den Chat eingeladen werden](/images/99_Find-Neo_de.gif)
+Für das massenhafte Einladen von Personen (bis zu 100 auf einmal, dann wiederholbar) sind die Matrix-Namen notwendig, die in der Form @HOST-Login:matrix.hochschule-stralsund.de vorliegen sollten. Diese bspw. in einem Texteditor Zeile für Zeile sammeln und dann mittels Zwischenablage (Kopieren & Einfügen) in das Suchfeld in Matrix/Element einfügen.
 
-Für das massenhafte Einladen von Personen (bis zu 100 auf einmal, dann wiederholbar) sind die Matrix-Namen notwendig, die in der Form @ZIH-Login:tu-dresden.de vorliegen sollten. Diese bspw. in einem Texteditor Zeile für Zeile sammeln und dann mittels Zwischenablage (Kopieren & Einfügen) in das Suchfeld in Matrix/Element einfügen.
+Wenn Sie niemanden finden können, fragen Sie nach deren HOST-Logins oder teilen Sie Ihr HOST-Login (@HOST-Login:matrix.hochschule-stralsund.de oder https://matrix.to/#/@HOST-Login:matrix.hochschule-stralsund.de), damit die angesprochene Person Sie innerhalb von Matrix kontaktieren kann.
 
-Wenn Sie niemanden finden können, fragen Sie nach deren Benutzernamen oder teilen Sie ihren Benutzernamen (@ZIH-Login:tu-dresden.de) oder https://matrix.to/#/@_Ihr_ZIH-Login_:tu-dresden.de, damit die angesprochene Person Sie innerhalb von Matrix kontaktieren kann.
+Wenn Sie die gesuchte Person im Suchergebnis gefunden haben, klicken Sie auf „Los“:
 
-Eine Einladungs-E-Mail wird nicht durch Matrix versendet.
+![Einen Kontakt anschreiben](/doc/images/04_Found-and-Go_de.png)
 
-Beachten Sie, dass Matrix-Accounts von ZIH-Funktionslogins möglicherweise nicht geprüft werden. Aufgrund der Neuheit des Mediums für Viele sowie der fehlenden Multi-Account-Funktionalität vom Matrix-Client Element, werden TU Dresden Mitarbeitende womöglich eher ihren persönlichen ZIH-Login nutzen.
+Es öffnet sich das Gespräch, welches nach Annahme der Einladung durch die verbundene Person [Ende-zu-Ende-verschlüsselt]({{< relref "encryption" >}}) (inzwischen Standard) beginnen kann. Die Verbindung zum Server an der Hochschule Stralsund ist natürlich auch transport-verschlüsselt.
 
-Im Suchergebnis ist auf die Zielperson zu klicken und dann auf Los:
+![Das Chat-Fenster](/doc/images/04_Chat.png)
 
-![Ein Suchergebnis auf eingegebenen Suchanfrage](/images/04_Found-and-Go_de.png)
+Nach dem Absenden der ersten Nachricht, werden auch Metadaten im Chat angezeigt:
 
-Es öffnet sich das Gespräch, welches nach Annahme der Einladung durch die verbundene Person [Ende-zu-Ende-verschlüsselt]({{< relref "encryption" >}}) (inzwischen Standard) beginnen kann. Die Verbindung zum Server an der TU Dresden ist natürlich auch transport-verschlüsselt. Sollten Sie aus einem speziellen Grund explizit keine Ende-zu-Ende-Verschlüsselung wünschen, wäre ein unverschlüsselter [Raum zu erzeugen]({{< relref "rooms/create.md" >}}) und die Gesprächspartner:in in diesen einzuladen.
+![Die erste Nachricht mit Metadaten](/doc/images/04_First_Message.png)
+
+Sollten Sie aus einem speziellen Grund explizit keine Ende-zu-Ende-Verschlüsselung wünschen, wäre ein unverschlüsselter [Raum zu erzeugen]({{< relref "rooms/create.md" >}}) und Ihre Kontakte in diesen einzuladen.
 
 Weiteres: [Nachrichten formatieren]({{< relref "formatting.md" >}})
 

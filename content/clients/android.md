@@ -12,18 +12,26 @@ Downloads für: {{% button href="https://play.google.com/store/apps/details?id=i
 
 ## Einrichtung
 
-1. Nach dem erstmaligen Öffnen der Element-App wählen Sie **„Ich habe schon ein Konto“**. Anschließend werden Sie aufgefordert, einen Server auszuwählen.
+1. Nach dem erstmaligen Öffnen der Element-App wählen Sie **„Ich habe bereits ein Konto“**. Anschließend werden Sie aufgefordert, einen Server auszuwählen.
 
-![Einrichtungsanzeige der Element-App beim ersten Start. Es werden wischbare Hinweistexte angezeigt und darunter befinden sich die Buttons "Konto erstellen" und "Ich habe schon ein Konto".](/images/15_Element_Android1_de.jpg?height=50vh&classes=border)
+![Einrichtungsanzeige der Element-App beim ersten Start. Es werden wischbare Hinweistexte angezeigt und darunter befinden sich die Buttons "Konto erstellen" und "Ich habe schon ein Konto".](/doc/images/15_Element_Android1_de.jpg?height=50vh&classes=border)
 
-2. Tippen Sie hier auf die letzte Option **„Andere“**.
+2. Tippen Sie hier auf **„Bearbeiten“**.
 
-![Auswahl eines Servers: Zu sehen sind die Optionen "matrix.org", "element matrix services" und "Andere"](/images/15_Element_Android2_de.jpg?height=50vh&classes=border)
+![Auswahl eines Servers: Zu sehen sind die Optionen "matrix.org", "element matrix services" und "Andere"](/doc/images/15_Element_Android2_de.jpg?height=50vh&classes=border)
 
-3. Geben Sie im Adress-Feld `tu-dresden.de` ein und bestätigen Sie Serveradresse durch einen Tipp auf den **„Fortfahren“**-Button.
+3. Geben Sie im Adress-Feld `matrix.hochschule-stralsund.de` ein und bestätigen Sie Serveradresse durch einen Tipp auf den **Weiter**-Button.
 
-![Bildschirm "Andere" zur Verbindung mit einem anderen Server. Das Textfeld Adresse erfordert die Eingabe der Serveradresse, darunter befindet sich der Fortfahren-Button.](/images/15_Element_Android3_de.jpg?height=50vh&classes=border)
+![Bildschirm "Andere" zur Verbindung mit einem anderen Server. Das Textfeld Adresse erfordert die Eingabe der Serveradresse, darunter befindet sich der Fortfahren-Button.](/doc/images/15_Element_Android3_de.jpg?height=50vh&classes=border)
 
-4. Geben Sie im Feld **„Benutzername oder E-Mail-Adresse“** Ihr ZIH-Login ein. (Ihren ZIH-Login finden Sie im [Profil des Self-Service-Portals](https://selfservice.tu-dresden.de/profile/) im Abschnitt Kontoinformationen als „Login-Name“.) Nach Eingabe Ihres ZIH-Passworts im zweiten Feld können Sie sich über den **„Anmelden“**-Button einloggen.
+4. Geben Sie im Feld **„Benutzername / E-Mail-Adresse / Telefonnummer“** Ihr HOST-Login ein. Nach Eingabe Ihres Passworts im zweiten Feld können Sie sich über den **Weiter**-Button einloggen.
 
-![Bildschirm "Mit tu-dresden.de" verbinden erwartet im Textfeld "Benutzername oder E-Mail-Adresse" die Eingabe des ZIH-Logins und das Textfeld "Passwort" die Eingabe des ZIH-Passworts. Zum Verbinden befindet sich der Button "Anmelden" auf der Anzeige.](/images/15_Element_Android4_de.jpg?height=50vh&classes=border)
+![Bildschirm "Mit matrix.hochschule-stralsund.de" verbinden erwartet im Textfeld "Benutzername / E-Mail-Adresse / Telefonnummer" die Eingabe der Anmeldedaten und das Textfeld "Passwort" die Eingabe Ihres HOST-Passworts. Zum Verbinden befindet sich der Button "Weiter" auf der Anzeige.](/doc/images/15_Element_Android4_de.jpg?height=50vh&classes=border)
+
+5. Es kann vorkommen, dass Ihr Telefon die Identität des Matrix-Homeservers nicht erkennt. Dann erhalten Sie folgende Meldung, bei der Sie auf **Vertrauen** tippen müssen.
+
+![Konnte die Identität des Remote-Servers nicht verifizieren. Auf "Vertrauen" tippen.](/doc/images/15_Element_Android5_de.jpg?height=50vh&classes=border)
+
+6. Sie können Ihre Nutzungsdaten anonym teilen, um den Entwicklern dabei zu helfen, Element weiter zu verbessern.
+
+![Anonyme Nutzerdaten teilen.](/doc/images/15_Element_Android6_de.jpg?height=50vh&classes=border)

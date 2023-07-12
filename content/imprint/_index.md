@@ -7,14 +7,14 @@ weight: 1000
 ---
 # Impressum
 
-Es gilt das [Impressum der TU Dresden](https://tu-dresden.de/impressum) mit folgenden Änderungen:
+Es gilt das [Impressum der Hochschule Stralsund](https://www.hochschule-stralsund.de/footer-metamenue/impressum/) mit folgenden Änderungen:
 
 **Ansprechpartner und technische Umsetzung des Matrix-Dienstes**
 
-Technische Universität Dresden <br>
-Zentrum für Informationsdienste und Hochleistungsrechnen (ZIH) <br>
-01062 Dresden <br>
+Hochschule Stralsund <br>
+Zentrum für Informations- und Kommunikationstechnik (ZIK) <br>
+18435 Stralsund <br>
 
-Tel.: +49 351 463-40000 <br>
-Fax: +49 351 463-42328 <br>
-E-Mail: servicedesk@tu-dresden.de <br>
+Tel.: +49 3831 45 7700 <br>
+<!--Fax: +49 351 463-42328 <br> -->
+E-Mail: it-support@hochschule-stralsund.de <br>

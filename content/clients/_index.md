@@ -12,7 +12,7 @@ Der empfohlene Referenzclient zur Nutzung von Matrix heißt Element und ist für
 
 ## [Element Web]({{< ref "browser.md" >}} "Einrichtung von Element Web (Browser)")
 
-Zur Web-App: {{% button href="https://matrix.tu-dresden.de" icon="fas fa-globe" %}}matrix.tu-dresden.de{{% /button %}}
+Zur Web-App: {{% button href="https://matrix.hochschule-stralsund.de" icon="fas fa-globe" %}}matrix.hochschule-stralsund.de{{% /button %}}
 
 Der einfachste Weg ist das direkte Öffnen der Element Web Anwendung in einem modernen Browser (z.B. [Mozilla Firefox](https://www.mozilla.org/de/firefox/)).
 
@@ -34,4 +34,4 @@ Downloads für: {{% button href="https://play.google.com/store/apps/details?id=i
 
 Downloads für: {{% button href="https://apps.apple.com/app/vector/id1083446067" icon="fas fa-download" %}}iOS (iPhone/iPad){{% /button %}}
 
-[![Element Seite zum Download des Clients](/images/12_Element-Download.png)](https://element.io/get-started)
+[![Element Seite zum Download des Clients](/doc/images/12_Element-Download.png)](https://element.io/get-started)

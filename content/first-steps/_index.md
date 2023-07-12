@@ -8,9 +8,9 @@ weight: 2
 
 # Erste Schritte - Wie kann Matrix genutzt werden?
 
-## Matrix-Login mit TUD-Account
+## Matrix-Login mit HOST-Account
 
-Mitgliedern und Angehörigen der TU Dresden (selbstverständlich auch Studierenden) wird unter Einhaltung der einschlägigen gesetzlichen und rechtlichen Bestimmungen zum Datenschutz und zur IT-Sicherheit ermöglicht, mittels ihres **TUD-Logins** mit Angehörigen dieser und anderer Hochschulen und Universitäten sowie weiteren Matrix-Nutzenden (bspw. akademischen Partner:innen) per Chat sowie Audio-/Video-Telefonie zu kommunizieren.
+Allen Mitgliedern und Angehörigen der Hochschule Stralsund wird unter Einhaltung der einschlägigen gesetzlichen und rechtlichen Bestimmungen zum Datenschutz und zur IT-Sicherheit ermöglicht, mittels ihres **HOST-Logins** oder ihrer **HOST-E-Mail** mit Angehörigen dieser und anderer Hochschulen und Universitäten sowie weiteren Matrix-Nutzenden (bspw. akademischen Partner:innen) per Chat sowie Audio-/Video-Telefonie zu kommunizieren.
 
 {{% notice tip %}}
 Wir empfehlen die Nutzung des Element Desktop-Clients, weil so zahlreiche Probleme, die bei dem Nutzen der Verschlüsselung entstehen können, vermieden werden können.
@@ -18,74 +18,74 @@ Wir empfehlen die Nutzung des Element Desktop-Clients, weil so zahlreiche Proble
 
 Downloads für: {{% button href="https://packages.riot.im/desktop/install/win32/x64/Element%20Setup.exe" icon="fas fa-download" %}}Windows{{% /button %}} {{% button href="https://packages.riot.im/desktop/install/macos/Element.dmg" icon="fas fa-download" %}}macOS{{% /button %}} {{% button href="/clients/install_linux" icon="fas fa-download" %}}Linux{{% /button %}}
 
-Nach einer Desktop-Installation ist darauf zu achten, den bestehenden Account mit dem TUD-Login zu nutzen, und keinen neuen Account auf einem anderen Server zu erstellen. Hier am Beispiel von Element:
+Nach einer Desktop-Installation ist darauf zu achten, dass Sie sich mit dem bestehenden HOST-Account anmelden und keinen neuen Account auf einem anderen Server zu erstellen. Hier am Beispiel von Element:
 
-![Markierter Anmeldebutton im Element Matrixclient](/images/01_Login_de.png)
+Klicken Sie zunächst auf **Anmelden**...
+
+![Markierter Anmeldebutton im Element Matrixclient](/doc/images/01_Login_de.png)
 
 Dies wird durch Klick auf **Ändern** realisiert. Dann landet man nicht versehentlich auf einem falschen Server...
 
-![Anmeldeseite mit Fokus auf dem Homeserver ändern Button](/images/02_Change-Homeserver_de.png)
+![Anmeldeseite mit Fokus auf dem Homeserver ändern Button](/doc/images/02_Change-Homeserver_de.png)
 
-Nun kann man manuell die Angabe des Heimservers durchführen: tu-dresden.de
+Wechseln Sie zum Heimserver: `matrix.hochschule-stralsund.de`
 
-![Eingabefeld zum Ändern des Homeservers mit der Eingabe matrix.tu-dresden.de](/images/03_Set-Homeserver_de.png)
+![Eingabefeld zum Ändern des Homeservers mit der Eingabe matrix.hochschule-stralsund.de](/doc/images/03_Set-Homeserver_de.png)
 
-Anschließend ist der einmalige Login mit TUD-Login (= ZIH-Login) und TUD-Passwort (= ZIH-Passwort) durchzuführen:
-Dropdown-Menü „Anmelden mit:“ sollte auf „Benutzername“ belassen werden. Dann sind folgende Eingaben zu tätigen:
+Anschließend können Sie zwischen den Anmeldemethoden **Benutzername** oder **E-Mail-Adresse** (Schaltfläche **Anmelden mit**) wählen und sich mit folgenden Eingaben anmelden:
 
-**Benutzername: TUD-Login**  ( = ZIH-Login, nur das Login-Kürzel, keine E-Mail-Adresse!)
+**Benutzername: HOST-Login-Kürzel** oder **E-Mail-Adresse: HOST-E-Mail-Adresse**
 
-**Passwort: TUD-Passwort** (= ZIH-Passwort)
-
-Ein alternativer Login, bspw. über die E-Mail-Adresse ist **NICHT** beim ersten, initialen, Anmelden möglich, erst ab dem zweiten Einloggen.
+**Passwort: zugehöriges Passwort**
 
 Es folgt nach dem Erstlogin auch keine E-Mail / Bestätigungsmail.
 
 Analog zu E-Mail-Adressen ergeben sich damit Matrix-Adressen folgender Struktur:
 
-@TUD-Login:tu-dresden.de
+@HOST-Login-Kürzel:matrix.hochschule-stralsund.de
 
-![Loginfenster mit Aufforderung TUD Login und Passwort einzugeben](/images/04_Username_de.png)
+![Loginfenster mit Aufforderung HOST-Login und Passwort einzugeben](/doc/images/04_Username_de.png)
 
 ## Bequemes Nutzen der Ende-zu-Ende-Verschlüsselung (E2EE)
 
-Matrix verschlüsselt nicht nur die Transporte von und zu dem Heimserver (im Rechenzentrum der TU Dresden) sondern erlaubt auch die Nutzung von Ende-zu-Ende-Verschlüsselung (E2EE). Hierzu müssen kryptografische Schlüssel zwischen allen Geräten ausgetauscht werden, die sich Ende-zu-Ende-verschlüsselt schreiben möchten. Obwohl diese technische Notwendigkeit kompliziert klingt und im Hintergrund auch ist, ist sie inzwischen für die Anwendenden sehr bequem geworden. Die vielen kryptografischen Schlüssel werden vom Client erstellt auf dem jeweiligen Gerät gespeichert. Sollte dies bspw. ein Tab in einem Browser sein, besteht die Gefahr, dass dieser Tab einmal unbeabsichtigt geschlossen wird. Dann sind alle verschlüsselten Inhalte nicht mehr lesbar. Damit dies nicht geschieht, wird eine Schlüsselsicherung auf dem Heimserver der TU Dresden angeboten, auf der (mit einer Sicherheitsphrase (bzw. daraus errechenbaren Sicherheitsschlüssel) geschützt) alle kryptografischen Schlüssel verschlüsselt abgelegt sind.
+Matrix verschlüsselt nicht nur die Transporte von und zu dem Heimserver (im Rechenzentrum der Hochschule Stralsund) sondern erlaubt auch die Nutzung von Ende-zu-Ende-Verschlüsselung (E2EE). Hierzu müssen kryptografische Schlüssel zwischen allen Geräten ausgetauscht werden, die sich Ende-zu-Ende-verschlüsselt schreiben möchten. Obwohl diese technische Notwendigkeit kompliziert klingt und im Hintergrund auch ist, ist sie inzwischen für die Anwendenden sehr bequem geworden. Die vielen kryptografischen Schlüssel werden vom Client erstellt auf dem jeweiligen Gerät gespeichert. Sollte dies bspw. ein Tab in einem Browser sein, besteht die Gefahr, dass dieser Tab einmal unbeabsichtigt geschlossen wird. Dann sind alle verschlüsselten Inhalte nicht mehr lesbar. Damit dies nicht geschieht, wird eine Schlüsselsicherung auf dem Heimserver der Hochschule Stralsund angeboten, auf der (mit einer Sicherheitsphrase (bzw. daraus errechenbaren Sicherheitsschlüssel) geschützt) alle kryptografischen Schlüssel verschlüsselt abgelegt sind.
 
 {{% notice info %}}
-Es wird dringend empfohlen, die Schlüsselsicherung zu nutzen (mit einer sicheren Sicherheitsphrase, welche NICHT Ihr TUD-Passwort ist)!
+Es wird dringend empfohlen, die Schlüsselsicherung zu nutzen (mit einer sicheren Sicherheitsphrase, welche NICHT Ihr HOST-Account Passwort ist)!
 {{% /notice %}}
 
-![Aufforderung den Sicherheitsschlüssel zu generieren oder eine Sicherheitsphrase einzugeben](/images/11_Setup-Key_de.png)
-![Aufforderung eine Passwort für die Schlüsselsicherung einzugeben](/images/12_Enter-Key_de.png)
+![Aufforderung den Sicherheitsschlüssel zu generieren oder eine Sicherheitsphrase einzugeben](/doc/images/11_Setup-Key_de.png)
+![Aufforderung eine Passwort für die Schlüsselsicherung einzugeben](/doc/images/12_Enter-Key_de.png)
 Alternativ können Sie sich statt der Sicherheitsphrase auch einen Sicherheitsschlüssel generieren lassen, welcher den selben Zweck wie die Sicherheitsphrase erfüllt. Weiterhin wird der Sicherheitsschlüssel immer zusätzlich zur Sicherheitsphrase erstellt und sollte als Notfallschlüssel sicher und wiederauffindbar verwahrt werden (z.B. Abspeichern als .txt-Datei UND Ausdrucken) 
-![Anzeige des Sicherheitsschlüssel zum abschreiben oder wegspeichern](/images/13_Present-Key_de.png) 
+![Anzeige des Sicherheitsschlüssel zum abschreiben oder wegspeichern](/doc/images/13_Present-Key_de.png) 
 
 [Weitere wichtige Einstellungen]({{< relref "settings/_index.md" >}}) können Ihr Matrix-Erlebnis verbessern!
 
 
 ## Aufforderungen zum Einrichten der Schlüsselsicherung
 
-![Screenshot der Aufforderung eine Sicherheitsphrase einzugeben](/images/01_Restore-Session_de.png)
+![Screenshot der Aufforderung eine Sicherheitsphrase einzugeben](/doc/images/01_Restore-Session_de.png)
 
 Sollte die Aufforderung zum Einrichten der Schlüsselsicherung übersprungen werden, sähe der nächste Bildschirm so aus:
 
-![Bestätigung des Überspringens der Eingabe einer Sicherheitsphrase](/images/03_Cancel-Restore_de.png)
+![Bestätigung des Überspringens der Eingabe einer Sicherheitsphrase](/doc/images/03_Cancel-Restore_de.png)
 
 Die Schlüsselsicherung wird dringend empfohlen, um sorgenfrei Ende-zu-Ende-Verschlüsselung nutzen zu können. Daher wird auch nach einem weiteren Überspringen in einem kleineren Tooltip zur Einrichtung der Verschlüsselung aufgefordert:
 
-![Chatansicht mit der Anzeige eines Tooltips, Verschlüsselung einzurichten. Markierung des bestätigen Feldes](/images/04_Notification_de.png)
+![Chatansicht mit der Anzeige eines Tooltips, Verschlüsselung einzurichten. Markierung des bestätigen Feldes](/doc/images/04_Notification_de.png)
 
 Sollten Sie dies auch hier auslassen wird Ihnen eine letzte Warnung bei einem bewussten Abmelden angezeigt. Wenn spätestens hierbei keine Schlüsselsicherung eingerichtet wird, kann später auf ggf. schon stattgefundene verschlüsselte Gespräche nicht mehr zugegriffen werden. Sollte der Tab geschlossen werden, entspricht dies ggf. ebenfalls einem Abmelden.
 
-![Abfrage, ob Nachrichten verschlüsselt werden sollen](/images/05_Logout-Notify_de.png)
+![Abfrage, ob Nachrichten verschlüsselt werden sollen](/doc/images/05_Logout-Notify_de.png)
 
 Vermeiden Sie diese Situation durch eine eingerichtete Schlüsselsicherung!
 
-## Matrix-Login ohne TUD-Account
+<!--
+## Matrix-Login ohne HOST-Account
 
-Eine Registrierung von Accounts (wie vllt. von anderen Matrix-Servern bekannt) ist hier an der TU Dresden nicht möglich, da den Dienst ausschließlich Personen mit TUD-Login nutzen können. Die TU Dresden ist kein Kommunikationsdiensteanbieter.
+Eine Registrierung von Accounts (wie vllt. von anderen Matrix-Servern bekannt) ist hier an der Hochschule Stralsund nicht möglich, da den Dienst ausschließlich Personen mit einem HOST-Login nutzen können. Die Hochschule Stralsund ist kein Kommunikationsdiensteanbieter.
 
-Für wissenschaftliche Kooperationen mit Kolleg:innen ohne TUD-Account besteht die Möglichkeit zur [Beantragung eines TUD-Gast-Accounts](https://tu-dresden.de/zih/dienste/service-katalog/zugangsvoraussetzung), welcher auch zur Nutzung von Matrix berechtigt.
+Für wissenschaftliche Kooperationen mit Kolleg:innen ohne HOST-Account besteht die Möglichkeit zur [Beantragung eines HOST-Gast-Accounts](https://hochschule-stralsund.de/zih/dienste/service-katalog/zugangsvoraussetzung), welcher auch zur Nutzung von Matrix berechtigt.
 
 Die Förderation mit den Matrix-Servern anderer wissenschaftlicher oder zivilgesellschaftlicher Institutionen ist jedoch in Kürze möglich (analog zur bestehenden E-Mail-Föderation). Beispiel-Server, mit denen jetzt schon kommuniziert werden kann sind:
 
@@ -166,7 +166,7 @@ Weitere europäische Hochschulen:
 
 Kartendarstellung der Hochschulen und Universitäten mit einem Matrix-Dienst: 
 
-<object data="/images/federation_map.svg" type="image/svg+xml" style="width: 600px; max-width: 100%"></object>
+<object data="/doc/images/federation_map.svg" type="image/svg+xml" style="width: 600px; max-width: 100%"></object>
 
 Für die zivilgesellschaftliche Nutzung des Protokolls Matrix gibt es hier eine Liste an öffentlichen Heimservern, die auch von Kolleg:innen genutzt werden können, falls ihre Institution noch keinen Matrix-Server anbietet:
 
@@ -177,6 +177,7 @@ Für die zivilgesellschaftliche Nutzung des Protokolls Matrix gibt es hier eine 
 [https://publiclist.anchel.nl/](https://publiclist.anchel.nl/)
 
 [https://fediverse.blog/~/FossMessenger/matrix-server](https://fediverse.blog/~/FossMessenger/matrix-server)
+-->
 
 ## Datenschutzerklärung
 
